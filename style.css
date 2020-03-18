@@ -36,7 +36,10 @@ h1{
     
  }
 
-h2, h3{font-family: 'Lato', sans-serif;}
+h2, h3{font-family: 'Lato', sans-serif;
+    color: #fff;
+ 
+}
 
 p{
     color: #00adb5;
@@ -54,15 +57,14 @@ p{
 .gif2{
     position: absolute;
     height: 200px;
-    margin-left: 0px;
-    margin-top: -50px;
-    margin-bottom: 50px;
+    margin-left: -40px;
+    margin-top: -30px;
 }
 
 .mountain{
     position: relative;
     height:     320px;
-    margin-right: 100px;
+    margin-right: 0px;
     margin-top: 42px;   
 }
 
