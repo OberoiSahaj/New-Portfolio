@@ -30,7 +30,7 @@ p.name{
 }
 
 h1{
-
+    color: #eeeeee;
     font-family: 'Lato', sans-serif;
     font-size: 40px;
     
@@ -39,7 +39,7 @@ h1{
 h2{ 
     font-family: 'Lato', sans-serif;
     font-size: 28px;    
-    color: #ffffff;
+    color: #eeeeee;
  
 }
 
@@ -48,6 +48,10 @@ p{
     color: #00adb5;
     font-family: 'Lato', sans-serif;  
     font-size: 18px;
+}
+
+a{
+    color: #eeeeee;
 }
 
 .gif1{
@@ -107,7 +111,7 @@ hr{
 .bar span{
     height: 4px;
     float: left;
-    background: #ffffff;
+    background: #eeeeee;
 }
 
 .python{
@@ -130,3 +134,4 @@ hr{
 .css{
     width: 60%;
 }
+
