@@ -1,6 +1,6 @@
 .calendar {
     background-color: #00adb5;
-    width: 750px;
+    width: 800px;
     font-family: Helvetica, arial;
     border: 1px solid #DDDDDD;
     border-radius: 3px;
@@ -41,7 +41,7 @@
 
 .text-small {
     font-size: 12px;
-    color: #767676;
+    color: black;
 }
 
 .calendar-graph {
@@ -75,7 +75,7 @@
     line-height: 1.3em;
     font-size: 24px;
     display: block;
-    color: #333;
+    color: black;
 }
 
 .calendar img.spinner {
@@ -107,7 +107,7 @@
 .left.text-muted {
     float: left;
     margin-left: 9px;
-    color: #767676;
+    color: black;
 }
 .left.text-muted a {
     color: #4078c0;
