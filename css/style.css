@@ -4,10 +4,114 @@ body{
     margin: 0;
 }
 
-.try{
-    height: 700px;
-    width: 1600px;
-}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    margin-right: auto;
+  }
+  
+  nav{
+      background-color: #222831;
+      opacity: 0.4;
+  }
+  .navbar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar a,
+  .cta,
+  .overlay__content a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    color: #eeeeee;
+    text-decoration: none;
+  }
+  
+  .navbar li {
+    padding: 20px 20px;
+  }
+  
+  .navbar li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .navbar li a:hover {
+    color: #00BFFF;
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #0088a9;
+  }
+  .overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .navbar,
+    .cta {
+      display: none;
+    }
+    .menu {
+      display: initial;
+    }
+  }
+  
 
 .top{
      padding-top: 463px;
@@ -163,4 +267,6 @@ hr{
 	position:relative;
 	top:1px;
 }
+
+
 
