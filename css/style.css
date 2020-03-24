@@ -3,7 +3,8 @@ body{
     text-align: center;
     margin: 0;
 }
-  
+
+
 
 .navdiv, nav{
     height: 50px;
@@ -51,7 +52,7 @@ nav li:hover{
 
 
 .top{
-     padding-top: 463px;
+     padding-top: 0;
      background-color: #00BFFF;
      position: relative;
 }
@@ -59,15 +60,14 @@ nav li:hover{
 .name{
     position: relative;
     color: rgb(78, 78, 78);
-    margin-left: 70px; 
-    margin-top: -155px;
+    margin: 215px auto 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
 }
 
 p.name{
     font-size: 20px;
-    margin-bottom:40px;
+    margin: 20px auto 33px;
 }
 
 h1{
@@ -98,21 +98,20 @@ a{
 .gif1{
     height:200px;
     position: absolute;
-    margin-top: -390px;
-    margin-left: 200px;
+    margin-top: 80px;
+    margin-left: 180px;
 }
 .gif2{
     position: absolute;
     height: 200px;
-    margin-left: -40px;
-    margin-top: -40px;
+    margin-left: -60px;
+    margin-top: -80px;
 }
 
 .mountain{
     position: relative;
     height:     320px;
-    margin-right: 0px;
-    margin-top: 42px;   
+    margin: auto;
 }
 
 .about-pic{
