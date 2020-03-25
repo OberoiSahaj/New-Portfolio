@@ -115,10 +115,9 @@ a{
 }
 
 .middle{
-    background: url(/images/about2.JPG) no-repeat;
+    background: url(../images/about2.jpg) no-repeat;
     margin: auto;
     background-size: 105%;
-
 }
 
 .profile_pic{
@@ -128,7 +127,7 @@ a{
 }
 
 .about{
-    padding-top: 50px;
+    padding-top: 350px;
     width: 800px;
     text-align: left;
     margin: 0 auto;
