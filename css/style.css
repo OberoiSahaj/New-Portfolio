@@ -4,10 +4,8 @@ body{
     margin: 0;
 }
 
-
-
 .navdiv, nav{
-    height: 50px;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -30,16 +28,20 @@ nav ul{
 
 nav li{
     font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 80px;
     list-style: none;
     display: inline-block;
-    width: 80px;  
+    height: 80px;
+    width: 100px;  
     padding: 0px;
-    margin-top: -50px;
+    margin-top: 0px;
 }
 
 nav a{
     text-decoration: none;
 }
+
 nav li:hover{
     background-color: #00BFFF;
     transition: 0.5s all;
@@ -50,6 +52,11 @@ nav li:hover{
     transition: 0.5s all;
 }
 
+.profile-pic{
+    height: 80px;
+    float: left;
+    margin-right: 800px;
+}
 
 .top{
      padding-top: 0;
@@ -60,7 +67,7 @@ nav li:hover{
 .name{
     position: relative;
     color: rgb(78, 78, 78);
-    margin: 215px auto 0;
+    margin: 185px auto 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
 }
@@ -121,11 +128,7 @@ a{
     margin: auto;
 }
 
-.profile_pic{
-    padding-top: 50px;
-    position: relative;
-    height: 200px;
-}
+
 
 .about{
     padding-top: 350px;
