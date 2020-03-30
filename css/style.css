@@ -70,6 +70,7 @@ nav li:hover{
     margin: 185px auto 0;
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
+    font-weight: bolder;
 }
 
 p.name{
@@ -91,6 +92,14 @@ h2{
  
 }
 
+h3{ 
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;    
+    font-weight: normal;
+    color: #eeeeee;
+}
+
+
 
 p{
     color: #00BFFF;
@@ -105,7 +114,7 @@ a{
 .gif1{
     height:200px;
     position: absolute;
-    margin-top: 80px;
+    margin-top: 45px;
     margin-left: 180px;
 }
 .gif2{
@@ -121,18 +130,14 @@ a{
     margin: auto;
 }
 
-.middle{
-    background: url(../images/about.jpg) ;
-    background-repeat: no-repeat;
-    background-size: 105%;
-    margin: auto;
-}
-
 .about{
-    padding-top: 350px;
+    color: #00BFFF;
+    font-family: 'Lato', sans-serif;  
+    font-size: 18px;
     width: 800px;
     text-align: left;
-    margin: 0 auto;
+    margin: 20px auto;
+    line-height: 1.5;
 }
 
 hr{
@@ -216,15 +221,10 @@ hr{
 	top:1px;
 }
 
-.contact{
-    background-image: url(../images/contact.jpg);
-    background-size: 100% 720px  ;
-    background-repeat: no-repeat;
-}
 
 .contact-form{
     width: 700px;
-    margin: 400px auto 0;
+    margin: 50px auto 0;
 }
 .contact-form-text{
     margin-top: 40px;
@@ -248,7 +248,7 @@ textarea.contact-form-text{
 }
 
 .btn-contact{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .footer{
@@ -273,4 +273,20 @@ textarea.contact-form-text{
     color:black;
     margin-top: -47px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+.bg{
+    background-color: #00BFFF;
+}
+
+.tree1, .tree2{
+    height: 250px;
+    margin: -100px 200px -18px;
+
+
+}
+
+.projects{
+    width: 800px;
+    margin: 50px auto;
 }
