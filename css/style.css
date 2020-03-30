@@ -5,7 +5,7 @@ body{
 }
 
 .navdiv, nav{
-    height: 100%;
+    height: 80px;
     margin: 0;
     padding: 0;
 }
@@ -38,7 +38,7 @@ nav li{
     margin-top: 0px;
 }
 
-nav a{
+a{
     text-decoration: none;
 }
 
@@ -127,8 +127,6 @@ a{
     background-size: 105%;
     margin: auto;
 }
-
-
 
 .about{
     padding-top: 350px;
@@ -226,7 +224,7 @@ hr{
 
 .contact-form{
     width: 700px;
-    margin: 400px auto;
+    margin: 400px auto 0;
 }
 .contact-form-text{
     margin-top: 40px;
@@ -250,5 +248,29 @@ textarea.contact-form-text{
 }
 
 .btn-contact{
-    margin-top: 50px ;
+    margin-top: 50px;
+}
+
+.footer{
+    margin-top: 50px;
+    height: 150px;
+    line-height: 100px;
+    background-color: #00BFFF;
+}
+
+.foot-a{
+    padding: 10px;
+    color: #222831;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logos-contact{
+    height: 25px;
+    width: 25px;
+}
+
+.foot-p{
+    color:black;
+    margin-top: -47px;
+    font-family: 'Ubuntu', sans-serif;
 }
