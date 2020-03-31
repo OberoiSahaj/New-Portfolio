@@ -193,7 +193,7 @@ hr{
     width: 60%;
 }
 
-.btn-resume, .btn-contact{
+.btn, .btn-gh{
     
 	background:linear-gradient(to bottom, #00BFFF 5%, #0f4c75 100%);
 	background-color:#00BFFF;
@@ -211,12 +211,17 @@ hr{
     
 }
 
-.btn-resume:hover, .btn-contact:hover {
+.btn-gh{
+    padding:10px 20px;
+    border-radius:10px;
+}
+
+.btn:hover, .btn-gh:hover {
 	background:linear-gradient(to bottom, #0f4c75 5%, #00BFFF 100%);
 	background-color:#019ad2;
 }
 
-.btn-resume:active, .btn-contact:active  {
+.btn:active, .btn-gh:active {
 	position:relative;
 	top:1px;
 }
@@ -289,4 +294,5 @@ textarea.contact-form-text{
 .projects{
     width: 800px;
     margin: 50px auto;
+    line-height: 1.5;
 }
