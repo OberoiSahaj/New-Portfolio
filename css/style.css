@@ -367,6 +367,14 @@ textarea.contact-form-text{
         margin: -50em 20em -5px 0;
     }
     
+    .projects{
+        width: 100%;
+    }
+
+    .contact-form{
+        width: 90%;
+        margin: auto;
+    }
 
 }
 
