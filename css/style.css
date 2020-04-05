@@ -4,17 +4,11 @@ body{
     margin: 0;
 }
 
-.navdiv, nav{
+nav{
     height: 80px;
+    width: 100%;    
     margin: 0;
     padding: 0;
-}
-.navdiv{
-    background-color: #00bfff;
-}
-
-nav{
-    width: 100%;    
     background-color: #0007;  
 }
 
@@ -128,6 +122,7 @@ a{
     height:     320px;
     margin: auto;
 }
+
 
 .about{
     color: #00BFFF;
@@ -284,6 +279,7 @@ textarea.contact-form-text{
 }
 
 .tree1, .tree2{
+    position: relative;
     height: 250px;
     margin: -100px 200px -18px;
 
@@ -295,3 +291,83 @@ textarea.contact-form-text{
     margin: 50px auto;
     line-height: 1.5;
 }
+
+.m-tree1, .m-tree2{
+    display: none;
+}
+
+@media (max-width: 500px) {
+
+    nav{
+        height: 70px;
+    }
+    
+    nav ul{
+        margin: 0;
+        margin-left: 50px;
+        padding: 0;
+        float: left;
+        
+    }
+    
+    nav li{
+        font-size: 0.9em;
+        line-height: 5;
+        height: 70px;
+        width: 60px;  
+    }
+    
+    
+    .profile-pic{
+        height: 70px;
+        width: 70px;
+        margin: 0;
+        
+        }
+    
+    .mountain{
+        width: 100% ;
+    }
+
+    .gif1{
+        height:100px;
+        margin-top: 6em;
+        margin-left: 5.8em;
+    }
+    .gif2{
+        position: absolute;
+        height: 100px;
+        margin-left: 0px;
+        margin-top: -2em;
+    }
+
+    .tree1, .tree2{
+        display: none; 
+    }
+
+    .about , .skills, .github{
+        width: 100%;
+        font-size: 1em;
+        padding: 2%;
+    }
+
+    .m-tree1{   
+        display: inline-block;
+        position: relative;
+        height: 10em;
+        width: 3em;
+        margin: 0 0 -5px 20em;
+    }
+ 
+    .m-tree2{   
+        display: inline-block;
+        position: relative;
+        height: 10em;
+        width: 3em;
+        margin: -50em 20em -5px 0;
+    }
+    
+
+}
+
+/* mobile end*/

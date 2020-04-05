@@ -138,3 +138,11 @@ h2.f4.text-normal.mb-3 {
 .float-left.text-gray a{color:black;}
 
 a.text-bold.css-truncate.css-truncate-target{color:black;} 
+
+@media (max-width: 500px) {
+
+    .calendar{
+        width: 100%;
+    }
+
+}
