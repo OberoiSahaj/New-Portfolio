@@ -113,13 +113,13 @@ a{
 .gif2{
     position: absolute;
     height: 200px;
-    margin-left: -60px;
+    margin-left: -120px;
     margin-top: -80px;
 }
 
 .mountain{
     position: relative;
-    height:     320px;
+    height: 320px;
     margin: auto;
 }
 
@@ -356,7 +356,10 @@ textarea.contact-form-text{
         position: relative;
         height: 10em;
         width: 3em;
-        margin: 0 0 -5px 20em;
+        float: right;
+        margin-top: -5em;
+        margin-right: 2em;
+
     }
  
     .m-tree2{   
@@ -364,7 +367,8 @@ textarea.contact-form-text{
         position: relative;
         height: 10em;
         width: 3em;
-        margin: -50em 20em -5px 0;
+        margin-top: -5em;
+        margin-left: -15em;
     }
     
     .projects{
@@ -377,5 +381,3 @@ textarea.contact-form-text{
     }
 
 }
-
-/* mobile end*/
