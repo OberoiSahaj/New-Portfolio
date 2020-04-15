@@ -388,3 +388,51 @@ textarea.contact-form-text{
     }
 
 }
+
+/* Media queries for Tablets */
+@media (min-width: 500px) and (max-width:1023px){
+    .tree1, .tree2{
+        display: none; 
+    }
+
+    .profile-pic{
+        float: left;   
+        margin-left:  
+    }
+
+    .m-tree1{   
+        display: inline-block;
+        position: relative;
+        height: 10em;
+        width: 3em;
+        float: right;
+        margin-top: -5rem;
+        margin-right: 10.5rem;
+
+    }
+ 
+    .m-tree2{   
+        display: inline-block;
+        position: relative;
+        height: 10rem;
+        width: 3rem;
+        margin-top: -5rem;
+        margin-left: -10rem;
+    }
+    
+
+}
+
+@media (min-width: 1024px) and (max-width:1440px){
+    .tree1{
+        margin-left: -15rem;
+        margin-bottom: -2.25rem;
+    }
+
+    .tree2{
+        margin-top: -20rem;
+        margin-left: 40rem;
+    }
+
+}
+
